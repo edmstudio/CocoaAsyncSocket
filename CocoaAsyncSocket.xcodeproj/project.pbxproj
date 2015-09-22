@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B673D961BB183DB00400CC9 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B673D951BB183DB00400CC9 /* CoreServices.framework */; };
+		4B673D981BB183E200400CC9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B673D971BB183E200400CC9 /* Security.framework */; };
+		4B673D9A1BB183F500400CC9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B673D991BB183F500400CC9 /* CFNetwork.framework */; };
+		4B673D9C1BB183FC00400CC9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B673D9B1BB183FC00400CC9 /* Security.framework */; };
 		6C55C7D31B7838B1006A7440 /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C55C7D11B7838B1006A7440 /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CD990301B7789680011A685 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD9902C1B7789680011A685 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CD990311B7789680011A685 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9902D1B7789680011A685 /* GCDAsyncSocket.m */; };
@@ -28,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B673D951BB183DB00400CC9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		4B673D971BB183E200400CC9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4B673D991BB183F500400CC9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		4B673D9B1BB183FC00400CC9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		6C55C7D11B7838B1006A7440 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaAsyncSocket.h; path = Source/CocoaAsyncSocket.h; sourceTree = SOURCE_ROOT; };
 		6CD990101B77868C0011A685 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD990151B77868C0011A685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B673D9C1BB183FC00400CC9 /* Security.framework in Frameworks */,
+				4B673D9A1BB183F500400CC9 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B673D981BB183E200400CC9 /* Security.framework in Frameworks */,
+				4B673D961BB183DB00400CC9 /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,10 @@
 		6CD990061B77868C0011A685 = {
 			isa = PBXGroup;
 			children = (
+				4B673D9B1BB183FC00400CC9 /* Security.framework */,
+				4B673D991BB183F500400CC9 /* CFNetwork.framework */,
+				4B673D971BB183E200400CC9 /* Security.framework */,
+				4B673D951BB183DB00400CC9 /* CoreServices.framework */,
 				6CD990121B77868C0011A685 /* CocoaAsyncSocket */,
 				6CD990111B77868C0011A685 /* Products */,
 			);
